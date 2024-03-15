@@ -11,7 +11,7 @@ function Admin() {
     return (
         <div>
             <Tabs defaultActiveKey="1">
-            <Tabs.TabPane tab="Personal Information" key = "1">
+            <Tabs.TabPane tab="Personal Information" key="1">
                     <PersonalInformation />
                 </Tabs.TabPane>
 
