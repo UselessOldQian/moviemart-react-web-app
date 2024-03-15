@@ -1,0 +1,87 @@
+ .h-screen {
+    height: 100vh;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.text-md {
+    font-size: 16px;
+}
+
+.text-lg {
+    font-size: 18px;
+}
+
+.text-xl {
+    font-size: 20px;
+}
+
+.text-2xl {
+    font-size: 24px;
+}
+
+.text-3xl {
+    font-size: 30px;
+}
+
+.border {
+    border-width: 1px ;
+}
+
+.border-none{
+    border:none
+}
+
+.br-1{
+    border-radius: 4px;
+}
+
+ .float-end{
+     float:right;
+ }
+
+ .cursor-pointer {
+     cursor: pointer;
+ }
+
+ .right{
+     right:5px
+ }
+
+ .right-15{
+     right:15px
+ }
+
+ .top{
+     top: 10px;
+ }
+
+ .top-15{
+     top: 15px;
+ }
+
+ .top-25{
+     top: 25px;
+ }
+
+ .movie-name {
+     display: block;
+ }
+
+ @media only screen and (max-width: 768px) {
+     .movie-name {
+         display: none;
+     }
+ }
+
+
